@@ -192,19 +192,6 @@ File → Project Structure → Project
 
 **Преподаватель проверяет работу по адресу:** `https://github.com/ВАШ_ЛОГИН/practice2`
 
----
-
-## Справочник типичных ошибок
-
-| Ошибка в IntelliJ | Причина | Решение |
-|-------------------|---------|---------|
-| Красная подсветка кода, «Cannot resolve symbol» | JDK не настроён | File → Project Structure → SDK → выберите JDK 21 |
-| Метод возвращает `0`, `""`, `null` или `false` | Метод ещё не реализован | Замените placeholder между маркерами `▼ ВАШ КОД ЗДЕСЬ ▼` / `▲ КОНЕЦ ВАШЕГО КОДА ▲` |
-| ▶ не появляется рядом с `main` | Файл не в Source Root | File → Project Structure → Modules → убедитесь, что корень помечен как Sources |
-| `Error: Could not find or load main class` | Неверный пакет | Убедитесь, что `package`-объявление совпадает с папкой файла |
-| Кириллица выводится как `???` | Кодировка JVM | Help → Edit Custom VM Options → добавьте: `-Dfile.encoding=UTF-8` |
-| `Permission denied (publickey)` при Push | SSH-ключ не настроен | Повторите Шаг 2 (настройка SSH) |
-| «Push rejected» | Удалённая ветка опередила | Git → Pull → затем повторите Push |
 
 ---
 
